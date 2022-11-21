@@ -1,0 +1,13 @@
+with IO;
+
+fn doAThing begin
+returns int32
+    return 11
+end
+
+entry main begin
+returns errorcode
+    put "Hello, World!\n"
+    print
+    return success
+end
